@@ -141,252 +141,72 @@
                     </button>
                 </div>
             </header>
+            <section class="bg-white dark:bg-gray-900">
+                <div class="container px-6 py-10 mx-auto">
+                    <h1 class="text-2xl font-semibold text-center text-gray-800 capitalize lg:text-3xl dark:text-white">Release
+                    </h1>
 
-            <section class="flex flex-col w-full px-6 md:justify-between md:items-center md:flex-row">
-                <div>
-                    <h2 class="text-3xl font-medium text-gray-800">Releases</h2>
-                    <p class="mt-2 text-sm text-gray-500">SneaKanel Sneakers Bot</p>
-                </div>
+                    <p class="mt-4 text-center text-gray-500 dark:text-gray-300">
+                        Check the futur releases.
+                    </p>
 
-                <div class="flex flex-col mt-6 md:flex-row md:-mx-1 md:mt-0">
-                    <button class="px-6 py-3 focus:outline-none text-gray-500 transition-colors duration-300 rounded-lg md:mx-1 hover:bg-gray-400 hover:text-white">
-                        <div class="flex items-center justify-center -mx-1">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 mx-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                                <path stroke-linecap="round" stroke-linejoin="round" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" />
-                            </svg>
-    
-                            <span class="mx-1 text-sm capitalize">Manage dashboard</span>
-                        </div>
-                    </button>
-                </div>
-            </section>
 
-            <section class="grid grid-cols-1 gap-8 px-6 xl:grid-cols-3 2xl:grid-cols-4 md:grid-cols-2 ">
-                <div class="flex items-center px-6 py-8 bg-white rounded-lg shadow-md shadow-gray-200 ">
-                    <div class="flex items-center -mx-2">
-                        <svg class="mx-2" width="70" height="70" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <circle cx="35" cy="35" r="35" fill="#713BDB" fill-opacity="0.05" />
-                            <path d="M26 44C26 40.625 30.5 40.625 32.75 38.375C33.875 37.25 30.5 37.25 30.5 31.625C30.5 27.8754 31.9996 26 35 26C38.0004 26 39.5 27.8754 39.5 31.625C39.5 37.25 36.125 37.25 37.25 38.375C39.5 40.625 44 40.625 44 44" stroke="#6F52ED" stroke-width="2" stroke-linecap="square" />
-                        </svg>
-    
-                        <div class="mx-2">
-                            <h3 class="text-2xl font-medium text-gray-800">6</h3>
-                            <p class="mt-1 text-sm text-gray-500">Checkouts</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="flex items-center px-6 py-8 bg-white rounded-lg shadow-md shadow-gray-200 ">
-                    <div class="flex items-center -mx-2">
-                        <svg class="mx-2" width="70" height="70" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <circle cx="35" cy="35" r="35" fill="#33D69F" fill-opacity="0.07" />
-                            <path d="M26 39L31 34" stroke="#21B8C7" stroke-width="2" stroke-linecap="round"
-                                stroke-linejoin="round" />
-                            <path
-                                d="M32 34C32.5523 34 33 33.5523 33 33C33 32.4477 32.5523 32 32 32C31.4477 32 31 32.4477 31 33C31 33.5523 31.4477 34 32 34Z"
-                                stroke="#21B8C7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                            <path
-                                d="M37 39C37.5523 39 38 38.5523 38 38C38 37.4477 37.5523 37 37 37C36.4477 37 36 37.4477 36 38C36 38.5523 36.4477 39 37 39Z"
-                                stroke="#21B8C7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                            <path d="M38 37L44 31M33 34L36 37L33 34Z" stroke="#21B8C7" stroke-width="2"
-                                stroke-linecap="round" stroke-linejoin="round" />
-                        </svg>
-    
-                        <div class="mx-2">
-                            <h3 class="text-2xl font-medium text-gray-800">48%</h3>
-                            <p class="mt-1 text-sm text-gray-500">Average Success Rate</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="flex items-center px-6 py-8 bg-white rounded-lg shadow-md shadow-gray-200 ">
-                    <div class="flex items-center -mx-2">
-                        <svg class="mx-2" width="70" height="70" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <circle cx="35" cy="35" r="35" fill="#FF4C61" fill-opacity="0.05" />
-                            <path d="M26 32L32 38L36 34L43.405 41.405" stroke="#FF4C61" stroke-width="2"
-                                stroke-linecap="square" />
-                            <path d="M43.405 41.405L44 42" stroke="#FF4C61" stroke-width="2" stroke-linecap="round" />
-                            <path d="M44 39V42H41" stroke="#FF4C61" stroke-width="2" stroke-linecap="square" />
-                        </svg>
-    
-                        <div class="mx-2">
-                            <h3 class="text-2xl font-medium text-gray-800">900 <span class="text-xl text-gray-600">€</span></h3>
-                            <p class="mt-1 text-sm text-gray-500">Money Spend (30 days)</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="flex items-center px-6 py-8 bg-white rounded-lg shadow-md shadow-gray-200 ">
-                    <div class="flex items-center -mx-2">
-                        <svg class="mx-2" width="70" height="70" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <circle cx="35" cy="35" r="35" fill="#4CB8FF" fill-opacity="0.07" />
-                            <path
-                                d="M42 26V44H31C30.2044 44 29.4413 43.6839 28.8787 43.1213C28.3161 42.5587 28 41.7956 28 41V29C28 28.2044 28.3161 27.4413 28.8787 26.8787C29.4413 26.3161 30.2044 26 31 26H42Z"
-                                stroke="#4CB8FF" stroke-width="2" stroke-linecap="square" />
-                            <path d="M28 41C28 40.2044 28.3161 39.4413 28.8787 38.8787C29.4413 38.3161 30.2044 38 31 38H42"
-                                stroke="#4CB8FF" stroke-width="2" stroke-linecap="square" />
-                        </svg>
-    
-                        <div class="mx-2">
-                            <h3 class="text-2xl font-medium text-gray-800">92%</h3>
-                            <p class="mt-1 text-sm text-gray-500">Finished homeworks</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="flex flex-col justify-center px-8 py-6 bg-white rounded-lg shadow-md shadow-gray-200 md:col-span-2 md:row-span-2 gap-y-4 gap-x-8 ">
-                    <div class="sm:flex sm:items-center sm:justify-between">
-                        <h2 class="font-medium text-gray-700">The number of applied and left students per month</h2>
-
-                        <div class="flex items-center mt-4 -mx-2 sm:mt-0">
-                            <span class="flex items-center text-gray-600">
-                                <p class="mx-2">Applied</p>
-                                
-                                <span class="w-2 h-2 mx-2 bg-orange-500 rounded-full"></span>
-                            </span>
-
-                            <span class="flex items-center text-gray-600">
-                                <p class="mx-2">Left</p>
-                                <span class="w-2 h-2 mx-2 bg-indigo-500 rounded-full"></span>
-                            </span>
-                        </div>
-                    </div>
-
-                    <canvas class="max-w-3xl max-h-96" id="secondChart"></canvas>
-                </div>
-
-                <div class="row-span-3 bg-white rounded-lg shadow-md shadow-gray-200">
-                    <div class="px-6 py-5 border-b border-gray-100 sm:flex sm:items-center sm:justify-between">
-                        <h2 class="font-medium text-gray-700">Students by average mark</h2>
-
-                        <button type="button" class="inline-flex focus:outline-none justify-center mt-2 text-sm font-medium leading-5 text-gray-500 bg-white rounded-lg sm:mt-0 hover:text-gray-600">
-                            <span>Descending</span>
-                            
-                            <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                                <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
-                            </svg>
-                        </button>
-                    </div>
-                    
-                    <div class="p-6 space-y-6">
-                        <div class="flex items-center justify-between ">
-                            <div class="flex items-center">
-                                <img class="w-10 h-10 overflow-hidden bg-gray-100 rounded-full object-cover" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80">
-                                <span class="mx-3 text-gray-600">Annette Watson</span>
+                    <div class="grid grid-cols-1 gap-8 mt-8 xl:mt-12 xl:gap-12 md:grid-cols-2 xl:grid-cols-3">
+                        <div class="overflow-hidden bg-cover rounded-lg cursor-pointer h-96 group"
+                            style="background-image:url('https://imgs.search.brave.com/kPycI8oItlPpsh6xCiN-4ElzysA7mSLYBBSgP1Nk0u4/rs:fit:1170:779:1/g:ce/aHR0cDovL3d3dy53/YWl0ZmFzaGlvbi5j/b20vd3AtY29udGVu/dC91cGxvYWRzLzIw/MTcvMDgvbmlrZS14/LW9mZi13aGl0ZS1z/aG90czIuanBn')">
+                            <div
+                                class="flex flex-col justify-center w-full h-full px-8 py-4 transition-opacity duration-700 opacity-0 backdrop-blur-sm bg-gray-800/60 group-hover:opacity-100">
+                                <h2 class="mt-4 text-xl font-semibold text-white capitalize">Air Jordan 1 "The Ten"</h2>
+                                <p class="mt-2 text-lg tracking-wider text-blue-400 uppercase ">NIKE X OFF-WHITE</p>
                             </div>
-                            <span class="font-semibold text-gray-600">9.3</span>
                         </div>
 
-                        <div class="flex items-center justify-between ">
-                            <div class="flex items-center">
-                                <img class="w-10 h-10 overflow-hidden bg-gray-100 rounded-full object-cover" src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80">
-                                <span class="mx-3 text-gray-600">Calvin Steward</span>
+                        <div class="overflow-hidden bg-cover rounded-lg cursor-pointer h-96 group"
+                            style="background-image:url('https://www.waitfashion.com/wp-content/uploads/2020/02/off-white-air-jordan-4-release-date-price-1-00.jpg')">
+                            <div
+                                class="flex flex-col justify-center w-full h-full px-8 py-4 transition-opacity duration-700 opacity-0 backdrop-blur-sm bg-gray-800/60 group-hover:opacity-100">
+                                <h2 class="mt-4 text-xl font-semibold text-white capitalize">Air Jordan 4 "Sail"</h2>
+                                <p class="mt-2 text-lg tracking-wider text-blue-400 uppercase ">NIKE X OFF-WHITE</p>
                             </div>
-                            <span class="font-semibold text-gray-600">8.3</span>
                         </div>
 
-                        <div class="flex items-center justify-between ">
-                            <div class="flex items-center">
-                                <img class="w-10 h-10 overflow-hidden bg-gray-100 rounded-full object-cover" src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80">
-                                <span class="mx-3 text-gray-600">Ralph Richards</span>
+                        <div class="overflow-hidden bg-cover rounded-lg cursor-pointer h-96 group"
+                            style="background-image:url('https://imgs.search.brave.com/JOfj2OGABFjPrGZCvWIZiKlQJmoLv6HaJdquREiuV7Q/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly9vbmUz/N3BtLmltZ2l4Lm5l/dC9vbmUzN3BtLWVk/aXRvci1kZXYtaW1h/Z2VzL3MzZnMtcHVi/bGljL3VzZXItaW1h/Z2VzLzIwMTktMDUv/dHJhdmlzLXNjb3R0/LW5pa2Utam9yZGFu/LTQuanBnP2NoPVdp/ZHRoLERQUiZhdXRv/PWNvbXByZXNzJnE9/NjAmdz03NTAmZml0/PWNsaXAmZHByPTI')">
+                            <div
+                                class="flex flex-col justify-center w-full h-full px-8 py-4 transition-opacity duration-700 opacity-0 backdrop-blur-sm bg-gray-800/60 group-hover:opacity-100">
+                                <h2 class="mt-4 text-xl font-semibold text-white capitalize">Air Jordan 1 "Cactus Jack"</h2>
+                                <p class="mt-2 text-lg tracking-wider text-blue-400 uppercase ">NIKE X TRAVIS</p>
                             </div>
-                            <span class="font-semibold text-gray-600">8.9</span>
                         </div>
 
-                        <div class="flex items-center justify-between ">
-                            <div class="flex items-center">
-                                <img class="w-10 h-10 overflow-hidden bg-gray-100 rounded-full object-cover" src="https://images.unsplash.com/photo-1599566150163-29194dcaad36?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80">
-                                <span class="mx-3 text-gray-600">Bernard Murphy</span>
+
+                        <div class="overflow-hidden bg-cover rounded-lg cursor-pointer h-96 group"
+                            style="background-image:url('https://publish.one37pm.net/wp-content/uploads/2019/05/travis-scott-nike-jordan-3.jpg?fit=1360%2C1360')">
+                            <div
+                                class="flex flex-col justify-center w-full h-full px-8 py-4 transition-opacity duration-700 opacity-0 backdrop-blur-sm bg-gray-800/60 group-hover:opacity-100">
+                                <h2 class="mt-4 text-xl font-semibold text-white capitalize">Air Force 1 Low "White"</h2>
+                                <p class="mt-2 text-lg tracking-wider text-blue-400 uppercase ">NIKE X TRAVIS</p>
                             </div>
-                            <span class="font-semibold text-gray-600">8.2</span>
                         </div>
 
-                        <div class="flex items-center justify-between ">
-                            <div class="flex items-center">
-                                <img class="w-10 h-10 overflow-hidden bg-gray-100 rounded-full object-cover" src="https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=761&q=80">
-                                <span class="mx-3 text-gray-600">Arlene Robertson</span>
+
+                        <div class="overflow-hidden bg-cover rounded-lg cursor-pointer h-96 group"
+                            style="background-image:url('https://imgs.search.brave.com/zoNAUIDhknwrZX0PHf0KwNyKgPLT0Di-0GUjmusU_gA/rs:fit:760:533:1/g:ce/aHR0cHM6Ly93d3cu/YmFza2V0c2Vzc2lv/bi5jb20vc3RhdGlj/cy91cGxvYWRzLzIw/MjEvMDQvYWlyLWpv/cmRhbi0xLXJldHJv/LWhpZ2gtb2ctaHlw/ZXItcm95YWwtNTU1/MDg4LTQwMi1yZWxl/YXNlLWRhdGUtNy03/NjB4NTMzLmpwZw')">
+                            <div
+                                class="flex flex-col justify-center w-full h-full px-8 py-4 transition-opacity duration-700 opacity-0 backdrop-blur-sm bg-gray-800/60 group-hover:opacity-100">
+                                <h2 class="mt-4 text-xl font-semibold text-white capitalize">Air Jordan 1 High OG Hyper Royal</h2>
+                                <p class="mt-2 text-lg tracking-wider text-blue-400 uppercase ">NIKE X JORDAN</p>
                             </div>
-                            <span class="font-semibold text-gray-600">7.8</span>
                         </div>
 
-                        <div class="flex items-center justify-between ">
-                            <div class="flex items-center">
-                                <img class="w-10 h-10 overflow-hidden bg-gray-100 rounded-full object-cover" src="https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80">
-                                <span class="mx-3 text-gray-600">Jane Lane</span>
+
+                        <div class="overflow-hidden bg-cover rounded-lg cursor-pointer h-96 group"
+                            style="background-image:url('https://imgs.search.brave.com/XuYp58ICmpeOcH7tDQfgU23pFK6oa-8tYC6BmeF8uX0/rs:fit:1200:720:1/g:ce/aHR0cHM6Ly9zdGF0/aWMuaGlnaHNub2Jp/ZXR5LmNvbS90aHVt/Ym9yL1ZMV2V3cHd0/Rzh2X2dYaS1SZHpG/WlZMaGRjWT0vZml0/LWluLzEyMDB4NzIw/L3NtYXJ0L3N0YXRp/Yy5oaWdoc25vYmll/dHkuY29tL3dwLWNv/bnRlbnQvdXBsb2Fk/cy8yMDE5LzEyLzA0/MDExMzIzL2Rpb3It/bmlrZS1haXItam9y/ZGFuLTEtMDAwLmpw/Zw')">
+                            <div
+                                class="flex flex-col justify-center w-full h-full px-8 py-4 transition-opacity duration-700 opacity-0 backdrop-blur-sm bg-gray-800/60 group-hover:opacity-100">
+                                <h2 class="mt-4 text-xl font-semibold text-white capitalize">Jordan 1 Retro High Dior</h2>
+                                <p class="mt-2 text-lg tracking-wider text-blue-400 uppercase ">NIKE X JORDAN</p>
                             </div>
-                            <span class="font-semibold text-gray-600">9.2</span>
-                        </div>
-
-                        <div class="flex items-center justify-between ">
-                            <div class="flex items-center">
-                                <img class="w-10 h-10 overflow-hidden bg-gray-100 rounded-full object-cover" src="https://images.unsplash.com/flagged/photo-1570612861542-284f4c12e75f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80">
-                                <span class="mx-3 text-gray-600">Pat Mckinney</span>
-                            </div>
-                            <span class="font-semibold text-gray-600">6.9</span>
-                        </div>
-
-                        <div class="flex items-center justify-between ">
-                            <div class="flex items-center">
-                                <img class="w-10 h-10 overflow-hidden bg-gray-100 rounded-full object-cover" src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80">
-                                <span class="mx-3 text-gray-600">Norman Walters</span>
-                            </div>
-                            <span class="font-semibold text-gray-600">9.9</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class=" bg-white rounded-lg shadow-md shadow-gray-200 lg:row-span-2">
-                    <div class="px-6 py-5 border-b border-gray-100">
-                        <h2 class="font-medium text-gray-700">Students by type of studying</h2>
-                    </div>
-
-                    <div class="flex items-center p-8">
-                        <canvas class="max-w-sm" id="myChart"> </canvas>
-                    </div>
-                </div>
-
-                <div class="flex items-center px-6 py-8 bg-white rounded-lg shadow-md shadow-gray-200 ">
-                    <div class="flex items-center -mx-2">
-                        <svg class="mx-2" width="60" height="60" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <circle cx="35" cy="35" r="35" fill="#FFB800" fill-opacity="0.07" />
-                            <path d="M30 44H40M29 25H41V34C41 37.3137 38.3137 40 35 40C31.6863 40 29 37.3137 29 34V25Z"
-                                stroke="#FFB800" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                            <path d="M35 40V44" stroke="#FFB800" stroke-width="2" stroke-linecap="round"
-                                stroke-linejoin="round" />
-                            <path
-                                d="M29 28V34H28C26.3431 34 25 32.6569 25 31C25 29.3431 26.3431 28 28 28H29ZM41 34V28H42C43.6569 28 45 29.3431 45 31C45 32.6569 43.6569 34 42 34H41Z"
-                                stroke="#FFB800" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                        </svg>
-    
-                        <div class="mx-2">
-                            <h3 class="text-2xl font-medium text-gray-800">Wmns Dunk Low SE 'Sandrift'</h3>
-                            <p class="mt-1 text-sm text-gray-500">March 01</p>
-                            <button class="px-9 py-2 font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-600 rounded-lg hover:bg-blue-500 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-80">
-                                View Release
-                            </button>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="flex items-center px-6 py-8 bg-white rounded-lg shadow-md shadow-gray-200 ">
-                    <div class="flex items-center -mx-2">
-                        <svg class="mx-2" width="60" height="60" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <circle cx="35" cy="35" r="50" fill="#FFB800" fill-opacity="0.07" />
-                            <path d="M30 44H40M29 25H41V34C41 37.3137 38.3137 40 35 40C31.6863 40 29 37.3137 29 34V25Z"
-                                stroke="#FFB800" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                            <path d="M35 40V44" stroke="#FFB800" stroke-width="2" stroke-linecap="round"
-                                stroke-linejoin="round" />
-                            <path
-                                d="M29 28V34H28C26.3431 34 25 32.6569 25 31C25 29.3431 26.3431 28 28 28H29ZM41 34V28H42C43.6569 28 45 29.3431 45 31C45 32.6569 43.6569 34 42 34H41Z"
-                                stroke="#FFB800" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                        </svg>
-    
-                        <div class="mx-2">
-                            <h3 class="text-2xl font-medium text-gray-800">A-Ma-Maniere x Jordan 12 'White/Burgundy'</h3>
-                            <p class="mt-1 text-sm text-gray-500">March 02</p>
-                            <button class="px-9 py-2 font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-600 rounded-lg hover:bg-blue-500 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-80">
-                                View Release
-                            </button>
                         </div>
                     </div>
                 </div>
